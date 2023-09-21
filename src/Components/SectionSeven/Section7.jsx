@@ -12,6 +12,7 @@ const Section7 = () => {
                 - Accelerate results with our streamlined processes and
                 efficient team.
               </p>
+              
               <p className="Section7Text">
                 - Leverage our extensive pool of skilled developers for rapid
                 project completion.
