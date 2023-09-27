@@ -3,8 +3,8 @@ import logo from "./Section2Images/edumetrixlogo.png";
 import round from "./Section2Images/round.png";
 import smallround from "./Section2Images/smallroundred.png";
 import groupwork from "./Section2Images/groupwork.jpg";
-import "./Sectiontwo.css"
-import "./Section2media.css"
+import '../SectionTwo/Sectiontwo.css'
+import '../SectionTwo/Section2media.css'
 
 const SectionTwo = () => {
   return (
@@ -14,16 +14,15 @@ const SectionTwo = () => {
         {/* ========================================================================  */}
 
         <div className="section2leftsidepart">
-          <div className="section2logowithtext">
+          {/* <div className="section2logowithtext">
             <img className="section2logo" src={logo} alt="" />
             <p className="sectiontwoedumetrix">EDUMETRIX </p>
-          </div>
-          <div className="sectiontwocompanyandtext">
-            <div className="section2aboutcompany">
-              <p className="Section2About">About the </p>
-              <p className="Section2About">Company</p>
-            </div>
-          </div>
+          </div> */}
+          {/* <div className="sectiontwocompanyandtext"> */}
+            {/* <div className="section2aboutcompany"> */}
+              <p className="Section2About">About the Company </p>
+            {/* </div> */}
+          {/* </div> */}
           <p className="sectiontwofountedparagraph">
             Founded in 2017, Edumetrix Learning Solutions Pvt Ltd has emerged as
             a leading IT firm in the education technology sector. With a focus
